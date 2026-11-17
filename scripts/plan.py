@@ -22,7 +22,8 @@ from scipy import ndimage as ndi
 FONT_PATHS = ['/System/Library/Fonts/AppleSDGothicNeo.ttc', '/System/Library/Fonts/Supplemental/AppleGothic.ttf',
               'C:/Windows/Fonts/malgun.ttf', 'C:/Windows/Fonts/gulim.ttc',  # Windows
               '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', '/usr/share/fonts/noto-cjk/NotoSansCJK-Regular.ttc',
-              '/usr/share/fonts/truetype/nanum/NanumGothic.ttf', '/usr/share/fonts/google-noto-cjk/NotoSansCJK-Regular.ttc']  # Linux
+              '/usr/share/fonts/truetype/nanum/NanumGothic.ttf', '/usr/share/fonts/google-noto-cjk/NotoSansCJK-Regular.ttc',
+              '/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc', '/usr/share/fonts/truetype/unfonts-core/UnDotum.ttf']  # Linux(마지막 둘: 한글 글꼴이 따로 없는 서버)
 
 
 def font(size):

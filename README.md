@@ -38,6 +38,8 @@ Claude Code에서 평면도 이미지와 함께 "평면도로 3D 투어 만들�
 
 - `SKILL.md` — 스킬 본문
 - `scripts/` — 평면도 분석·사이트 생성·검사
+  - `from_estimator.py` — 인테리어 견적 작성기(아티팩트) 평면도 탭의 평면(`models/<id>`)을 작업 폴더로 바꾼다(평면도 읽기 단계 없이 바로 `make`)
+  - `publish_prep.py` — 만든 사이트를 claude.ai 비공개 페이지(아티팩트)로 올릴 수 있게 바꾼다(.glb → glTF JSON, 미니맵 다시 그리기)
 - `template/` — three.js 정적 사이트 템플릿과 재료 파일(재질·창밖·3D 가구)
 - `references/` — plan.json 형식, 재료 파일 목록
 - `examples/` — 시험용 평면도
